@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { GoogleMap, Marker, InfoWindow } from '@react-google-maps/api';
 import Geocode from 'react-geocode';
 
-const API_KEY = 'AIzaSyBJCe2qyEnsGHllpjGiF8k9efwnYYe5Ylk';
+const API_KEY = 'API_KEY';
 
 const useScript = (url) => {
   const [scriptLoaded, setScriptLoaded] = useState(false);
